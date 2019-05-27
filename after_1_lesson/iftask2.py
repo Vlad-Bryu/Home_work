@@ -1,9 +1,5 @@
-string1 = input()
-string2 = input()
-
-
 def string_definition(string1, string2):
-    if type(string1 or string2) == str:
+    if type(string1 and string2) == str:
         if string1 == string2:
             return 1
         elif string2 == 'learn':
@@ -14,7 +10,7 @@ def string_definition(string1, string2):
         return 0
 
 
-print(string_definition(string1, string2))
+print(string_definition("LearnPython", ["Learn", "Python"]))
 
 
 

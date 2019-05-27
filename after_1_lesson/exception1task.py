@@ -6,14 +6,19 @@ question_answer = {
 
 
 def ask_user():
-    while True:
         try:
-            print('Как дела?')
-            y = input()
+            users_answer = 0
+            while 'Хорошо' != users_answer:
+                users_answer = input('Как дела? ')
+
+            while True:
+                user_say = input('Задайте вопрос: ')
+                if user_say in question_answer:
+                    print(question_answer[user_say])
+                else:
+                    print('Введите другой вопрос')
         except KeyboardInterrupt:
             print('Пока!')
-            break
-
 
 
 ask_user()

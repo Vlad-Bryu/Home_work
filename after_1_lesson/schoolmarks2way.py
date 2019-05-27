@@ -6,27 +6,25 @@ school_marks = [
 
 
 def average_marks_for_school():
-    c = 0
-    d = 0
+    full_scores = 0
+    number_of_marks = 0
     for n in school_marks:
-        for a in n["scores"]:
-            c = c + a
-        d = d + len(n["scores"])
-    return c/d
+        for scores in n["scores"]:
+            full_scores = full_scores + scores
+        number_of_marks = number_of_marks + len(n["scores"])
+    print('Средний балл для всей школы: {mark}'.format(mark=full_scores/number_of_marks))
 
 
 def average_marks_for_class():
     for n in school_marks:
-        c = 0
-        for a in n["scores"]:
-            c = c + a
-        d = c / (len(n["scores"]))
-        f = n["school_class"]
-        r = 'Средний балл {av_marks} для {school_class}'.format(av_marks=d, school_class=f)
-        print(r)
+        full_score = 0
+        for scores in n["scores"]:
+            full_score = full_score + scores
+        average_mark = full_score / (len(n["scores"]))
+        print('Средний балл {av_marks} для {school_class}'.format(av_marks=average_mark, school_class=n["school_class"]))
 
 
-print(average_marks_for_school())
+average_marks_for_school()
 average_marks_for_class()
 
 

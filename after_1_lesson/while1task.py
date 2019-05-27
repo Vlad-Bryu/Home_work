@@ -6,11 +6,9 @@ question_answer = {
 
 
 def ask_user():
-    x = 'Хорошо'
-    y = 0
-    while x != y:
-        print('Как дела?')
-        y = input()
+    users_answer = 0
+    while 'Хорошо' != users_answer:
+        users_answer = input('Как дела? ')
 
     while True:
         user_say = input('Задайте вопрос: ')

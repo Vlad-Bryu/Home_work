@@ -1,5 +1,5 @@
 string = input()
 
-for score in string:
-    print(score)
+for symbol in string:
+    print(symbol)
 

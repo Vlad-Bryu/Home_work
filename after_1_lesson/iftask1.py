@@ -1,7 +1,3 @@
-print('введите возраст')
-age = float(input())
-
-
 def activity_person(age):
     if 3 <= age < 100:
         if age < 7:
@@ -12,10 +8,11 @@ def activity_person(age):
             print('Вы учитесь в универе')
         elif age < 65:
             print('Вы работаете')
-        elif age < 100:
+        else:
             print('Вы пенсионер')
     else:
         print('Введите корректный возраст')
 
 
+age = int(input('Введите возраст целым числом: '))
 activity_person(age)
