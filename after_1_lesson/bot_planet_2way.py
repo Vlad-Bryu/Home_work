@@ -1,31 +1,23 @@
 from telegram.ext import Updater, CommandHandler
 import ephem
 
-PROXY = {'proxy_url': 'socks5://t3.learn.python.ru:1080',
+PROXY = {'proxy_url': 'socks5h://t3.learn.python.ru:1080',
     'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}}
 
 
-
 def greet_user(bot, update):
-    text = 'Доступна команда /planet (показывает в каком созвездии находится планета в текущий момент)'
-    print(text)
+    update.message.reply_text("Доступна команда /planet (показывает в каком созвездии находится планета в текущий момент)")
 
 
 def coordinate_of_planet(bot, update):
-    def func():
-        user_text = update.message.text.split()
-        #date = update.message.date.split(' ')
-        #print(date)
-        print(len(user_text))
-        return user_text[1]
-    coord_planet = ephem.func()('2018/01/01')
+    user_text = update.message.text.split()
+    date = update.message.date
+    print(date)
+    print(len(user_text))
+    coord_planet = ephem.user_text[1]('2018/01/01')
     coordinate = ephem.constellation(coord_planet)
     print(coordinate)
-
-    bot.sendMessage(chat_id=update.message.chat_id,
-                    text="{planet} в созвездии {coordinate} на 2018/01/01".format(planet=planet,
-                                                                                  coordinate=coordinate
-                                                                                ))
+    update.message.reply_text("Положение {} в созвездии {}".format(user_text[1], coordinate))
 
 
 def main():

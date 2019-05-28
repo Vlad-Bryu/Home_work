@@ -13,14 +13,14 @@ def average_marks_for_school():
         b = len(n["scores"])
         scores.append(a)
         number_of_marks.append(b)
-    print('Средний балл для всей школы: {marks}'.format(marks=sum(scores)/sum(number_of_marks)))
+    print('Средний балл для всей школы: {}'.format(sum(scores)/sum(number_of_marks)))
 
 
 def average_marks_for_class():
     for n in school_marks:
         a = sum(n["scores"])
         b = len(n["scores"])
-        print('Средний балл {av_marks} для {school_class}'.format(av_marks=a/b, school_class=n["school_class"]))
+        print('Средний балл {} для {}'.format(a/b, n["school_class"]))
 
 
 average_marks_for_school()
