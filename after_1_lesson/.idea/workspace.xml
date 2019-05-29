@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5233ab14-52b4-42b0-b06b-cbe06aa31a23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/bot_planet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_planet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_planet_2way.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_planet_2way.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception1task.py" beforeDir="false" afterPath="$PROJECT_DIR$/exception1task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iftask2.py" beforeDir="false" afterPath="$PROJECT_DIR$/iftask2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmarks.py" beforeDir="false" afterPath="$PROJECT_DIR$/schoolmarks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolmarks2way.py" beforeDir="false" afterPath="$PROJECT_DIR$/schoolmarks2way.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while1task.py" beforeDir="false" afterPath="$PROJECT_DIR$/while1task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ephem_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ephem_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot_planet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -105,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ephem_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -140,8 +135,8 @@
         <option value="$PROJECT_DIR$/while1task.py" />
         <option value="$PROJECT_DIR$/exception1task.py" />
         <option value="$PROJECT_DIR$/bot_planet_2way.py" />
-        <option value="$PROJECT_DIR$/ephem_test.py" />
         <option value="$PROJECT_DIR$/bot_planet.py" />
+        <option value="$PROJECT_DIR$/ephem_test.py" />
       </list>
     </option>
   </component>
@@ -344,22 +339,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ephem_test.py">
+    <entry file="file://$PROJECT_DIR$/bot_planet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot_planet.py">
+    <entry file="file://$PROJECT_DIR$/ephem_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
