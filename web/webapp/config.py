@@ -11,3 +11,5 @@ SECRET_KEY = "sjdfh4h43uiliuaPWEIOFHeuhwP354IOR3O;:I#fasd^^#"
 
 
 REMEMBER_COOKIE_DURATION = timedelta(days=5)
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SQLALCHEMY_DATABASE_URI = "postgres://postgres:Dkfl09071995bryu@localhost/news"

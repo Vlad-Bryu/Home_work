@@ -1,5 +1,6 @@
 from flask_login import LoginManager
 from flask import Flask
+from flask_migrate import Migrate
 
 from webapp.db import db
 from webapp.user.models import User
@@ -11,9 +12,8 @@ from webapp.news.views import blueprint as news_blueprint
 def create_app():
     app = Flask(__name__)
     app.config.from_pyfile('config.py')
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://postgres:Dkfl09071995bryu@localhost/news"
     db.init_app(app)
+    migrate = Migrate(app, db)
 
     login_manager = LoginManager()
     login_manager.init_app(app)
